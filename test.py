@@ -4,8 +4,8 @@ import os
 #get current path
 current_path = os.getcwd()
 # Load the two images
-image1 = cv2.imread(os.path.join(current_path , 'cv' , 'image2.jpg'))
-image2 = cv2.imread(os.path.join(current_path , 'cv' , 'image1.jpg'))
+image1 = cv2.imread(os.path.join(current_path , 'image2.jpg'))
+image2 = cv2.imread(os.path.join(current_path , 'image1.jpg'))
 
 # Convert the images to grayscale
 gray1 = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY)
